@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Bootcamp React
 
 # Controls when the action will run. 
 on:
@@ -30,8 +30,8 @@ jobs:
          version: 12 
 
       # Runs a set of commands using the runners shell
-      - name: action-yarn
-        uses: comchangs/action-yarn@v0.1-beta
+      - name: Build Yarn and npm
+        uses: linchpin/action-build-yarn-npm@master
         with:
           cmd: install 
     
