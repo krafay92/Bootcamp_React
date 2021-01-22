@@ -1,9 +1,11 @@
+import React from 'react';
 import './App.css';
+import Comp from './Comp.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!!</h1>
+      <Comp type="function component" location="App.js" />
     </div>
   );
 }
