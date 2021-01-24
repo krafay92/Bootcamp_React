@@ -1,3 +1,11 @@
+*{
+  margin: 0px;
+  text-align: center;
+}
+
+.margin{
+  margin-bottom: 10px;
+}
 .mor{
   height: 600px;
   background-color: yellow;
