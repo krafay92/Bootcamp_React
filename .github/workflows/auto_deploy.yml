@@ -36,7 +36,7 @@ jobs:
 #           cmd: install 
       
       - name: Creating build
-        run: CI=npm run build
+        run:  npm run build
 #       - uses: borales/actions-yarn@v2.0.0
 #         with:
 #           cmd: build
