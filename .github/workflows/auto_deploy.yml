@@ -34,7 +34,9 @@ jobs:
 #         uses: Borales/actions-yarn@v2.3.0
 #         with:
 #           cmd: install 
-      
+      - name: installing npm
+        run: npm ci
+        
       - name: Creating build
         run:  "CI= npm run build"
   
