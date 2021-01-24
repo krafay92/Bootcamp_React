@@ -40,14 +40,14 @@ jobs:
 #         with:
 #           cmd: build
       
-      - name: Install dependencies
-        run: npm install
+#       - name: Install dependencies
+#         run: npm install
 
-      - name: Run the tests
-        run: npm test
+#       - name: Run the tests
+#         run: npm test
 
-      - name: Build
-        run: npm run build
+#       - name: Build
+#         run: npm run build
       
       - name: Installing surge
         run: npm install -g surge
