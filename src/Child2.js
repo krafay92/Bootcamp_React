@@ -11,7 +11,7 @@ const Child2 = () => {
             <button onClick = {() => dispatch('INCREAMENT')}>Increament</button>
             {/* Extra */}
             <button onClick = { () => dispatch('DECREAMENT')}> Decrament</button>
-            <button onClick = { () => dispatch('RESET')}>Reset the Counter</button>
+            <button onClick = { () => dispatch('RESET')}>Reset</button>
         </div>
     )
 }
