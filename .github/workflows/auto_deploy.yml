@@ -30,13 +30,15 @@ jobs:
           version: 12
 
      # Runs a set of commands using the runners shell
-      - name: GitHub Action for Yarn
-        uses: Borales/actions-yarn@v2.3.0
-        with:
-          cmd: install 
-      
+#       - name: GitHub Action for Yarn
+#         uses: Borales/actions-yarn@v2.3.0
+#         with:
+#           cmd: install 
+      - name: installing npm
+        run: npm ci
+        
       - name: Creating build
-        run:  yarn build
+        run:  "CI= npm run build"
   
       - name: Installing surge
         run: npm install -g surge
