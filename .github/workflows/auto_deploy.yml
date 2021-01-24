@@ -35,8 +35,8 @@ jobs:
         with:
           cmd: install 
       
-#       - name: Creating build
-#         run: yarn build
+      - name: Creating build
+        run: yarn build
 #       - uses: borales/actions-yarn@v2.0.0
 #         with:
 #           cmd: build
@@ -54,4 +54,4 @@ jobs:
         run: npm install -g surge
      
       - name: Deploying using surge
-        run: surge ./ http://rafay_react.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build http://rafay_react.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
