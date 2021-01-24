@@ -36,6 +36,7 @@ jobs:
           cmd: install 
     
       - name: Creating build
+        run: yarn run test
         run: yarn build
       
       - name: Installing surge
