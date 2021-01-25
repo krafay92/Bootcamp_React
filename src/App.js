@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Par from "./Parent";
 import counterContext from "./Contextapi";
+import Usestate from './useState';
 import './App.css';
 
 
@@ -12,6 +13,7 @@ let counterArray = useState(0);
     <counterContext.Provider value = {counterArray}>
       <div>
         <Par />
+        <Usestate />
       </div>
     </counterContext.Provider>
       

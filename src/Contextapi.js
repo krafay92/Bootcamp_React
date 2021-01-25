@@ -1,5 +1,4 @@
-import React, {createContext} from "react";
-
+import React, {createContext} from 'react';
 
 let counterContext = createContext(0);
 
